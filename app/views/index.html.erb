@@ -2,9 +2,9 @@
 
 <h3>Current contents</h3>
 <%= @cart.each do |product| %>
-<p>
+<li>
   <%= product %>
-</p>
+</li>
 <% end %>
 
 <%= form_tag('/products/add') do %>
