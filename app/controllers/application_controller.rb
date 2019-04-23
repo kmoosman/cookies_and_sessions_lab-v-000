@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
       cart = session[:cart]
     else
       session[:cart] = []
-    # cart = session[:cart] || []
+    end
+    cart# cart = session[:cart] || []
   end
 end
