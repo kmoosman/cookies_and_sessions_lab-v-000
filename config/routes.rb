@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   # root 'products#index'
   # post '/products/add' => 'products#add'
 
-  resouces :products
+  resources :products
 end
